@@ -1,35 +1,43 @@
 # Fetal Health Classification using CatBoost
 
 ## Overview
-This project focuses on classifying fetal health conditions using machine learning techniques on CTG dataset.
+This project focuses on classifying fetal health conditions using the CTG (Cardiotocography) dataset using machine learning techniques.
 
-## Features
-- Built using CatBoost algorithm
-- Achieved ~97% accuracy
-- Applied feature selection techniques
-- Compared with multiple models
+## Key Features
+- Built using CatBoost for efficient classification
+- Achieved ~97% accuracy with optimized feature set
+- Applied feature selection techniques to improve model performance
+- Evaluated model using standard classification metrics
 
 ## Dataset
-CTG (Cardiotocography) dataset used for fetal health classification
+CTG (Cardiotocography) dataset used for fetal health classification.
 
 ## Workflow
-1. Data preprocessing
-2. Feature selection (ANOVA, Mutual Information, Correlation)
-3. Model training (CatBoost)
-4. Evaluation using metrics
+1. Data preprocessing and cleaning  
+2. Feature selection (ANOVA, Mutual Information, Correlation)  
+3. Model training using CatBoost  
+4. Model evaluation using performance metrics  
 
 ## Results
-- Accuracy: ~97%
-- Evaluated using precision, recall, F1-score
+- Accuracy: ~97%  
+- Evaluated using precision, recall, F1-score, and confusion matrix  
 
 ## Sample Output
 
-### Accuracy / Metrics
+### Accuracy / Performance
 ![Accuracy](output/accuracy.png)
 
 ### Confusion Matrix
 ![Confusion Matrix](output/confusion_matrix.png)
 
+## Tech Stack
+Python, Pandas, NumPy, scikit-learn, CatBoost, Matplotlib
+
 ## How to Run
-pip install -r requirements.txt
-Run notebook
+pip install -r requirements.txt  
+Run the notebook
+
+## Contribution
+- Developed and trained machine learning model using CatBoost  
+- Applied feature selection techniques to optimize performance  
+- Evaluated model performance and generated results  
