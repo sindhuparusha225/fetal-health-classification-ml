@@ -1,3 +1,6 @@
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![ML](https://img.shields.io/badge/Machine%20Learning-CatBoost-orange)
+![Domain](https://img.shields.io/badge/Domain-Healthcare-red)
 # Fetal Health Classification using CatBoost
 This project focuses on building a high-performance machine learning model for fetal health classification, with emphasis on feature selection and model evaluation.
 
